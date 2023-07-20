@@ -17,13 +17,14 @@ p {
 
 /* || header */
 
-header {
+header > div {
   width: 1220px;
   height: 65px;
   margin: 0 auto;
   position: fixed;
   top: 53px;
   left: 350px;
+  z-index: 1;
 }
 
 header div,
@@ -51,6 +52,11 @@ header span {
 }
 
 /* || nav */
+
+nav {
+  height: 200px;
+
+}
 
 nav,
 nav li {
