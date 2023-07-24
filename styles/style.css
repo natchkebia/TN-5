@@ -17,14 +17,21 @@ p {
 
 /* || header */
 
+header {
+  background-color: #fff;
+  height: 118px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
 header > div {
   width: 1220px;
   height: 65px;
-  margin: 0 auto;
   position: fixed;
-  top: 53px;
-  left: 350px;
-  z-index: 1;
+  margin: 53px 350px;
 }
 
 header div,
